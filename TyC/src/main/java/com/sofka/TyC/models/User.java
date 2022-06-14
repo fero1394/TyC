@@ -1,5 +1,6 @@
 package com.sofka.TyC.models;
 
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -8,8 +9,8 @@ public class User {
 
     @Id
     private Long id;
-    private boolean passport;
-    private boolean nui;
+    private boolean passport = false;
+    private boolean nui = false;
     private String document;
 
     public User() {

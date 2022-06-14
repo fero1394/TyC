@@ -3,12 +3,16 @@ package com.sofka.TyC.models;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+import java.time.LocalDate;
+
+
+@Document(collection = "TyC")
 public class TyC {
 
     @Id
     private Long id;
     private String tyc;
+    private LocalDate date;
 
     public TyC() {
     }
@@ -16,6 +20,7 @@ public class TyC {
     public TyC(Long id, String tyc) {
         this.id = id;
         this.tyc = tyc;
+        this.date = LocalDate.now();
     }
 
     public Long getId() {
@@ -32,5 +37,9 @@ public class TyC {
 
     public void setTyc(String tyc) {
         this.tyc = tyc;
+    }
+
+    public LocalDate getDate() {
+        return date;
     }
 }
