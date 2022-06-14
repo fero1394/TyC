@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48ed5570-8c55-45ce-af8a-611d80f03c75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/models/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/models/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
