@@ -6,20 +6,22 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.LocalDate;
 
 
-@Document(collection = "TyC")
+@Document(collection="TyC")
 public class TyC {
 
     @Id
     private Long id;
-    private String tyc;
+
+    private String report;
     private LocalDate date;
 
     public TyC() {
+        this.date = LocalDate.now();
     }
 
-    public TyC(Long id, String tyc) {
+    public TyC(Long id, String report) {
         this.id = id;
-        this.tyc = tyc;
+        this.report = report;
         this.date = LocalDate.now();
     }
 
@@ -31,15 +33,19 @@ public class TyC {
         this.id = id;
     }
 
-    public String getTyc() {
-        return tyc;
+    public String getReport() {
+        return report;
     }
 
-    public void setTyc(String tyc) {
-        this.tyc = tyc;
+    public void setReport(String report) {
+        this.report = report;
     }
 
     public LocalDate getDate() {
         return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
     }
 }

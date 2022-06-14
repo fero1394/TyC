@@ -4,37 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48ed5570-8c55-45ce-af8a-611d80f03c75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/Impl/TyCImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/TyCService.java" afterDir="false" />
+    <list default="true" id="5a98894a-33dc-42e0-8b3e-b616b3f4f9e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ProyectosSofka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mavenExecutorSetting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TyC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/controllers/UserContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/controllers/UserContoller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/models/TyC.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/models/TyC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/repositories/TyCRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/repositories/TyCRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/serviceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/Impl/TyCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/Impl/TyCImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/TyCApplication.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,28 +40,20 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
-  <component name="ProjectId" id="2AXmRdzZF0AqSJx8HIsJLCDAPCv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2AaSwOVobZFkYuHfr58g9ElgwKP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Udemy/Proyectos/Spring-Boot-WebFlux-ApiRest" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="TyCApplication" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+    <configuration name="TyCApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sofka.TyC.TyCApplication" />
       <module name="TyC" />
       <extension name="coverage">
@@ -80,46 +66,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <module name="TyC" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="spring-boot:run" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/TyC" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TyCApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="48ed5570-8c55-45ce-af8a-611d80f03c75" name="Changes" comment="" />
-      <created>1655164297487</created>
+      <changelist id="5a98894a-33dc-42e0-8b3e-b616b3f4f9e9" name="Changes" comment="" />
+      <created>1655246441336</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1655164297487</updated>
+      <updated>1655246441336</updated>
     </task>
     <servers />
   </component>
