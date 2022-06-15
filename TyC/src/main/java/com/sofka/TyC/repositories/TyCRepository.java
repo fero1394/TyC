@@ -5,5 +5,5 @@ import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface TyCRepository extends ReactiveMongoRepository<TyC, Long> {
+public interface TyCRepository extends ReactiveMongoRepository<TyC, String> {
 }

@@ -6,9 +6,9 @@ import reactor.core.publisher.Mono;
 
 public interface TyCService {
 
-    Mono<TyC> save(TyC tyc);
+    public Mono<TyC> save(TyC tyc);
 
-    Mono<TyC> findById(Long id);
+    public Mono<TyC> findById(String id);
 
-    Flux<TyC> findAll();
+    public Flux<TyC> findAll();
 }
