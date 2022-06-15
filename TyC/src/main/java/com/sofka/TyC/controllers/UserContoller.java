@@ -1,7 +1,9 @@
 package com.sofka.TyC.controllers;
 
 import com.sofka.TyC.models.TyC;
+import com.sofka.TyC.models.User;
 import com.sofka.TyC.service.TyCService;
+import com.sofka.TyC.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +20,9 @@ public class UserContoller {
     @Autowired
     private TyCService tycService;
 
+    @Autowired
+    private UserService userService;
+
     @GetMapping("/")
     private Flux<TyC> findAll(){
         return tycService.findAll();
@@ -28,9 +33,19 @@ public class UserContoller {
         return tycService.findById(id);
     }
 
-    @PostMapping("/create")
-    private Mono<TyC> create(@RequestBody TyC tyc){
+    @PostMapping("/createTyC")
+    private Mono<TyC> createTyC(@RequestBody TyC tyc){
         return tycService.save(tyc);
+    }
+
+    @PostMapping("/createUser")
+    private Mono<User> createUser(@RequestBody User user){
+        return userService.save(user);
+    }
+
+    @GetMapping("/users")
+    private Flux<User> AllUsers(){
+        return userService.findAll();
     }
 
 }

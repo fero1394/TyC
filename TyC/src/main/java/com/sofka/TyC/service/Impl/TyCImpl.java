@@ -10,17 +10,19 @@ import reactor.core.publisher.Mono;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.concurrent.atomic.AtomicLong;
 
 @Service
 public class TyCImpl implements TyCService {
-
 
     @Autowired
     private TyCRepository tycRepository;
 
     @Override
     public Mono<TyC> save(TyC tyc) {
+
         tyc.setDate(LocalDateTime.from(LocalDateTime.now()));
+
         return tycRepository.save(tyc);
 
     }
