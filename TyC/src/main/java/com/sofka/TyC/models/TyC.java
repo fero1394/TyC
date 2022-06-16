@@ -6,6 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDateTime;
+import java.util.Objects;
 import java.util.concurrent.atomic.AtomicLong;
 
 
@@ -45,4 +46,24 @@ public class TyC {
         this.report = report;
     }
 
+    @Override
+    public String toString() {
+        return "TyC{" +
+                "id=" + id +
+                ", report='" + report + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        TyC tyC = (TyC) o;
+        return Objects.equals(id, tyC.id) && Objects.equals(report, tyC.report);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, report);
+    }
 }
