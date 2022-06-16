@@ -63,10 +63,6 @@
 		</dependency>
 	</dependencies>
 
-	<configuration>
-		<appName>gentle-shore-6874</appName>
-	</configuration>
-
 	<build>
 		<plugins>
 			<plugin>
