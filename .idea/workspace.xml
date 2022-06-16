@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a98894a-33dc-42e0-8b3e-b616b3f4f9e9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/TyCApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/TyCApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/controllers/GreetingController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/controllers/UserContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/controllers/UserContoller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/models/TyC.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/models/TyC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/repositories/TyCRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/repositories/TyCRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/restservice/Greeting.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/Impl/TyCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/Impl/TyCImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/Impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/TyCService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/TyCService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/java/com/sofka/TyC/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TyC/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TyC/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +50,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProyectoTareaTyC/TareaTyC" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="TyCApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
