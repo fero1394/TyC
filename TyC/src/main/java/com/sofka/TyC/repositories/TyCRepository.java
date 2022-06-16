@@ -12,6 +12,7 @@ import java.util.concurrent.atomic.AtomicLong;
 @Repository
 public interface TyCRepository extends ReactiveMongoRepository<TyC, Long> {
 
-    @Query("{$natural:1}")
-    public Mono<TyC> obtenerUltimo();
+    @Query("{'id':{ '$gt' : 1}}")
+    public Mono<TyC> ultimo();
 }
+

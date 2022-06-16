@@ -8,8 +8,6 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.concurrent.atomic.AtomicLong;
 
 @Service
@@ -37,18 +35,13 @@ public class TyCImpl implements TyCService {
         return tycRepository.findAll();
     }
 
-    /*
+
     @Override
     public Mono<TyC> obtenerUltimo() {
-        Long ultimo = tycRepository.count()
-                .flatMap(p -> {
-                    tycRepository.findById(p);
-                    return
-                })
 
-        return tycRepository.obtenerUltimo();
+        return  tycRepository.ultimo();
     }
 
-     */
 }
+
 
