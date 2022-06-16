@@ -49,9 +49,12 @@ public class UserContoller {
         return userService.findAll();
     }
 
+    /*
     @GetMapping("/ultimosTyC")
     private Mono<TyC> ultimo(){
         return tycService.obtenerUltimo();
     }
+
+     */
 
 }
