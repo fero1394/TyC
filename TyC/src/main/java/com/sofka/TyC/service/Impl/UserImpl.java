@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+import java.time.LocalDateTime;
+
 @Service
 public class UserImpl implements UserService {
 
@@ -16,6 +18,8 @@ public class UserImpl implements UserService {
 
     @Override
     public Mono<User> save(User user) {
+
+        user.setDate(LocalDateTime.from(LocalDateTime.now()));
         return userRepository.save(user);
     }
 

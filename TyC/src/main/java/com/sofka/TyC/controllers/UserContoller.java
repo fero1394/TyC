@@ -14,6 +14,7 @@ import reactor.core.publisher.Mono;
 import javax.validation.Valid;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 public class UserContoller {
@@ -23,13 +24,13 @@ public class UserContoller {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/")
+    @GetMapping("/tyc")
     private Flux<TyC> findAll(){
         return tycService.findAll();
     }
 
     @GetMapping("/{id}")
-    private Mono<TyC> findById(@PathVariable("id")String id){
+    private Mono<TyC> findById(@PathVariable("id")Long id){
         return tycService.findById(id);
     }
 
@@ -46,6 +47,11 @@ public class UserContoller {
     @GetMapping("/users")
     private Flux<User> AllUsers(){
         return userService.findAll();
+    }
+
+    @GetMapping("/ultimosTyC")
+    private Mono<TyC> ultimo(){
+        return tycService.obtenerUltimo();
     }
 
 }

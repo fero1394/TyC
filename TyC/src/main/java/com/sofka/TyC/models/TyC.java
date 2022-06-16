@@ -5,40 +5,35 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Date;
+import java.util.concurrent.atomic.AtomicLong;
 
 
 @Document(collection="TyC")
 public class TyC {
 
     @Id
-    private String id;
+    private Long id;
 
     private String report;
 
-    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
-    private LocalDateTime date;
-
     public TyC() {
-    }
-
-    public TyC(String id,String report) {
-        this.id = id;
-        this.report = report;
     }
 
     public TyC(String report) {
         this.report = report;
     }
 
-    public String getId() {
+    public TyC(Long id, String report) {
+        this.id = id;
+        this.report = report;
+    }
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -50,11 +45,4 @@ public class TyC {
         this.report = report;
     }
 
-    public LocalDateTime getDate() {
-        return date;
-    }
-
-    public void setDate(LocalDateTime date) {
-        this.date = date;
-    }
 }

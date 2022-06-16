@@ -15,20 +15,20 @@ import java.util.concurrent.atomic.AtomicLong;
 @Service
 public class TyCImpl implements TyCService {
 
+    private final AtomicLong counter = new AtomicLong();
+
     @Autowired
     private TyCRepository tycRepository;
 
     @Override
     public Mono<TyC> save(TyC tyc) {
 
-        tyc.setDate(LocalDateTime.from(LocalDateTime.now()));
-
+        tyc.setId(counter.incrementAndGet());
         return tycRepository.save(tyc);
 
     }
-
     @Override
-    public Mono<TyC> findById(String id) {
+    public Mono<TyC> findById(Long id) {
         return tycRepository.findById(id);
     }
 
@@ -36,4 +36,10 @@ public class TyCImpl implements TyCService {
     public Flux<TyC> findAll() {
         return tycRepository.findAll();
     }
+
+    @Override
+    public Mono<TyC> obtenerUltimo() {
+        return tycRepository.obtenerUltimo();
+    }
 }
+

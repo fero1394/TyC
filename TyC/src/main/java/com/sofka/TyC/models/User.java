@@ -1,8 +1,12 @@
 package com.sofka.TyC.models;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import java.time.LocalDateTime;
 
 @Document(collection="Users")
 public class User {
@@ -14,6 +18,10 @@ public class User {
     @DBRef
     private TyC tyc;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    private LocalDateTime date;
+
     public User() {
     }
 
@@ -21,6 +29,14 @@ public class User {
         this.id = id;
         this.document = document;
         this.tyc = tyc;
+    }
+
+    public LocalDateTime getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDateTime date) {
+        this.date = date;
     }
 
     public String getId() {
@@ -47,12 +63,4 @@ public class User {
         this.tyc = tyc;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id='" + id + '\'' +
-                ", document='" + document + '\'' +
-                ", tyc=" + tyc +
-                '}';
-    }
 }
