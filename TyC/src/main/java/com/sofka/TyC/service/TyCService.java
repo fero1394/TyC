@@ -14,5 +14,8 @@ public interface TyCService {
 
     public Flux<TyC> findAll();
 
+    /*
     public Mono<TyC> obtenerUltimo();
+
+     */
 }

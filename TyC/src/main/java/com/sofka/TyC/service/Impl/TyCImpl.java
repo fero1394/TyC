@@ -37,9 +37,18 @@ public class TyCImpl implements TyCService {
         return tycRepository.findAll();
     }
 
+    /*
     @Override
     public Mono<TyC> obtenerUltimo() {
+        Long ultimo = tycRepository.count()
+                .flatMap(p -> {
+                    tycRepository.findById(p);
+                    return
+                })
+
         return tycRepository.obtenerUltimo();
     }
+
+     */
 }
 
